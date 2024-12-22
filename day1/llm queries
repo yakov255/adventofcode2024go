@@ -1,0 +1,53 @@
+Q: How to write tests in GO
+A: create *_test.go
+```
+func TestSomething(t *testing.T) {
+}
+```
+
+Q: How to read file with digits into slice?
+A:
+Bunch of code
+Using bufio, strings and strconv
+
+Q: How to write if else
+A: if else if else
+
+Q: How to create map in GO?
+A:
+```golang
+ages := make(map[string]int)
+ages["Alice"] = 30
+name := "Bob"
+if age, exists := ages[name]; exists {
+    fmt.Printf("%s's age is %d\n", name, age) // Output: Bob's age is 25
+} else {
+    fmt.Println(name, "not found in the map")
+}
+for name, age := range ages {
+    fmt.Printf("%s is %d years old\n", name, age)
+}
+delete(ages, "Bob")
+```
+
+Q: how to use var in go?
+```
+var x int
+var y int = 42
+var z = 42 // Type inferred as int
+var (
+    a int
+    b string
+    c float64
+)
+var (
+    d = 100
+    e = "Hello"
+    f = 3.14159
+)
+x = 7
+```
+
+Q: what values range returns?
+A: index and element
+
