@@ -1,0 +1,10 @@
+Q: how to regex in go?
+A: very long answer (qwen 2.5 32b q6)
+```
+regexp.compile
+```
+
+Q: how to read file to string?
+
+Q: how to convert bytes to string?
+

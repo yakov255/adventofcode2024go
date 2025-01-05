@@ -1,0 +1,39 @@
+Q: How to create struct?
+A:
+```
+type MyIntPair struct {
+    First  int
+    Second int
+}
+```
+
+Q: How to create map?
+```
+map[Key_Type]Value_Type{}
+```
+
+Q: How to insert into map?
+A:
+```
+ages["A"] = 30
+```
+
+Q: How to loop over map?
+```
+for key, value := range myMap {
+```
+
+Q: How to check that element exists in map?
+A:
+```
+value, exists := map[key]
+```
+
+Q: How to swap two elements in slice?
+```
+ temp := numbers[i]
+    numbers[i] = numbers[j]
+    numbers[j] = temp
+```
+
+Q: What is the difference between SortFunc and SortStableFunc

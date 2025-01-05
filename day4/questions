@@ -1,0 +1,5 @@
+Q: how to create array in go?
+A:
+```
+var names [3]string = [3]string{"Alice", "Bob", "Charlie"}
+```

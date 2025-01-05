@@ -1,0 +1,21 @@
+Q: How to make nullable int in go?
+A: no nullable types in go. Use Pointers instead:
+```go
+var myInt *int
+
+// Check if myInt is nil (i.e., not set)
+if myInt == nil {
+    fmt.Println("myInt is nil")
+}
+
+// Set the value of myInt
+val := 10
+myInt = &val
+
+// Access the value through pointer
+if myInt != nil {
+    fmt.Println(*myInt) // Output: 10
+}
+```
+
+Q: how to continue two levels in go?
